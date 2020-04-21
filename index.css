@@ -6,6 +6,9 @@
 ::after{
     box-sizing: inherit;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Quicksand',Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
@@ -122,4 +125,7 @@ hr{
     left: 40%;
     color:white;
     font-family: 'Lobster','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.scroll{
+   padding-top: 100px;
 }
